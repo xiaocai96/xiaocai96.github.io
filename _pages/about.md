@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Xiao Cai's Homepage"
+title: "CV"
 permalink: /
 author_profile: true
 redirect_from:
