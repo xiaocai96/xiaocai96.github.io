@@ -5,12 +5,13 @@ permalink: /posts/blog-1
 tags:
   - Markdown
   - Tutorials
+redirect_from: 
+  - /md/
+  - /markdown.html
 ---
 
 <!-- author_profile: true
-redirect_from: 
-  - /md/
-  - /markdown.html -->
+ -->
 
 
 ## Locations of key files/directories
