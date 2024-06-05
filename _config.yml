@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "Xiao Cai"
 title_separator          : "-"
 name                     : &name "Xiao Cai"
 description              : &description "Keep Fighting"
