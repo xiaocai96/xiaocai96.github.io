@@ -3,7 +3,7 @@ title: "RUL prediction for two-phase degrading systems considering physical dama
 collection: publications
 # permalink: /publication/2009-10-01-paper-title-number-1
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2024-04
+date: 2024-04-01
 venue: 'Reliability Engineering & System Safety'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0951832024000012'
