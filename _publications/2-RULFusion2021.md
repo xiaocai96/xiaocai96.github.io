@@ -2,8 +2,8 @@
 title: "Remaining useful life prediction based on a multi-sensor data fusion model"
 collection: publications
 # permalink: /publication/2009-10-01-paper-title-number-1
-# excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: "2021 April"
+excerpt: #''
+date: 2021-04-01
 venue: 'Reliability Engineering & System Safety'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0951832020307493'

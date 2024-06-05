@@ -2,7 +2,7 @@
 title: "Multi-Sensor Data-Driven Remaining Useful Life Prediction of Semi-Observable Systems"
 collection: publications
 # permalink: /publication/2009-10-01-paper-title-number-1
-# excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: #''
 date: 2020-11-19
 venue: 'IEEE Transactions on Industrial Electronics'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
