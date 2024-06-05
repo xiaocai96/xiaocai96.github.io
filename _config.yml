@@ -8,12 +8,12 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Xiao Cai"
-title_separator          : "|"
-name                     : &name "Home"
+title                    : "Home"
+title_separator          : "-"
+name                     : &name "Xiao Cai"
 description              : &description "Keep Fighting"
 url                      : https://cx1996888.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/cv" # the subpath of your site, e.g. "/blog"
 repository               : "cx1996888/cx1996888.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
