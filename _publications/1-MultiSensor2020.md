@@ -2,9 +2,9 @@
 title: "Multi-Sensor Data-Driven Remaining Useful Life Prediction of Semi-Observable Systems"
 collection: publications
 # permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+# excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2020-11-19
-venue: 'Journal 1'
+venue: 'IEEE Transactions on Industrial Electronics'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9264697'
 citation: 'Li, N., Lei, Y., Gebraeel, N., Wang, Z., <b>Cai, X.</b>, Xu, P., & Wang, B. (2020). Multi-sensor data-driven remaining useful life prediction of semi-observable systems. <i>IEEE Transactions on Industrial Electronics</i>, 68(11), 11482-11491.'
