@@ -1,7 +1,7 @@
 ---
-title: 'Conda envirenment'
-date: 2012-08-14
-permalink: /posts/blog-1
+title: 'Conda'
+date: 2024-06-05
+permalink: /posts/blog-2
 tags:
   - Conda
   - Tutorials
