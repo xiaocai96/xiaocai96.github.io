@@ -16,17 +16,16 @@
       {% endif %}
     </h2>
       <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-    {% if post.img %}
-    <div class="post-cover-image">
-      <figure>
-        <img class="post-image" src={{ post.img | prepend: "/images/" | prepend: base_path }} alt="{{post.title}}">
-        {% if post.fig-caption %}
-          <figcaption>{{post.fig-caption}}</figcaption>
-        {% endif %}
-      </figure>
-    </div> <!-- Image -->
-    {% endif %}
-    
+      {% if post.img %}
+        <div class="post-cover-image">
+          <figure>
+            <img class="post-image" src={{ post.img | prepend: "/images/" | prepend: base_path }} alt="{{post.title}}">
+            {% if post.fig-caption %}
+              <figcaption>{{post.fig-caption}}</figcaption>
+            {% endif %}
+          </figure>
+        </div> <!-- Image -->
+      {% endif %}
     {% if post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
     {% elsif post.citation %}
