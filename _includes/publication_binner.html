@@ -19,7 +19,7 @@
       {% if post.img %}
         <div class="post-cover-image">
           <figure>
-            <img class="post-image" src={{ post.img | prepend: "/images/" | prepend: base_path }} alt="{{post.title}}">
+            <img class="post-image" src="{{ post.img | prepend: "/images/" | prepend: base_path }}" alt="{{post.title}}">
             {% if post.fig-caption %}
               <figcaption>{{post.fig-caption}}</figcaption>
             {% endif %}
