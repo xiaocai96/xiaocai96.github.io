@@ -7,6 +7,9 @@ tags:
   - Tutorials
 ---
 
+A tutorial for conda for Beamer
+
+
 # Beamer 常用代码
 > Reference: https://wzbtech.com/tech/beamer.html
 
