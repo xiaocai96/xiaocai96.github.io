@@ -557,7 +557,7 @@ slides的打印版本不希望有动态效果和章节封面
 \documentclass[handout]{beamer}
 
 % 生成handout时重新定义这个颜色
-\mode<handout>{%
+\mode<handout>{
     \definecolor{mygray}{RGB}{0,0,0}
 }
 ```
