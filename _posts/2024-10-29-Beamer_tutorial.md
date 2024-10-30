@@ -14,7 +14,15 @@ A tutorial for conda for Beamer
 > Reference: https://wzbtech.com/tech/beamer.html
 
 > Cheat Sheet: https://www.cpt.univ-mrs.fr/~masson/latex/Beamer-appearance-cheat-sheet.pdf
+
+
 ## 最常用
+
+### theme
+```latex
+  \usetheme{Frankfurt}
+  \usecolortheme{beaver}
+```
 
 ### frame
 ```latex
@@ -31,13 +39,14 @@ A tutorial for conda for Beamer
 \end{block}
 ```
 
-### 公式(equation)
+### equation
 ```latex
 \begin{align*}
     f(z)&=b\\
     &=c+d
 \end{align*}
 ```
+
 ### 无序列表
 ```latex
 \begin{itemize}
@@ -59,16 +68,14 @@ A tutorial for conda for Beamer
 
 ### 最后感谢页
 ```latex
+% \usepackage{calligra}
 \begin{frame}
     \frametitle{}
-    \Huge
     \begin{center}
-        Thank You!
+        {\Huge Thank You!}
+        % {\Huge\calligra Thank You!}
     \end{center}
 \end{frame}
-
-% 文字可选：The End | Thank You for Your Attention! | Thank You for Listening!
-% 文字可选：谢谢！| 感谢聆听！
 ```
 
 ## 代码片段
@@ -103,7 +110,7 @@ A tutorial for conda for Beamer
 % 介绍
 \title[ShortVersion]{YourTitle}
 \author[short]{YourName}
-\date{November 26th, 2018}
+\date{November 26th, 2018} % \today
 \subtitle{Your Subtitle Here}
 \institute[short]{institute}
 \titlegraphic{\includegraphics[width=2cm]{logo.png}} % 在页面中间位置加图片
@@ -125,6 +132,8 @@ A tutorial for conda for Beamer
 % 页脚只留页码
 \setbeamertemplate{footline}[frame number]
 ```
+% 去除导航栏
+\setbeamertemplate{navigation symbols}{}
 
 ## 更多环境
 ```latex
@@ -289,6 +298,7 @@ frame部分缩小
 ### 代码块
 
 1. 使用verbatim环境
+
 ```latex
 \begin{verbatim}
     int main (void)
@@ -297,23 +307,23 @@ frame部分缩小
     }
 \end{verbatim}
 ```
-2. 实测verbatim遇到latex代码会出现问题，需要新建 一个环境
+
+2. 实测verbatim遇到latex代码会出现问题，需要新建一个环境
+
 ```latex
-\documentclass{beamer}
 \newenvironment{fragileframe}%
   {\begin{frame}[fragile,environment=fragileframe]}%
   {\end{frame}}
 
-\begin{document}
 \begin{fragileframe}
   \begin{verbatim}
     \end{frame}
   \end{verbatim}
 \end{fragileframe}
-\end{document}
 ```
 
 3. 使用listings宏包
+
 ```latex
 \usepackage{listings}
 
@@ -591,7 +601,7 @@ LaTeX 中 `tdclock` 包可以提供定时功能。添加一个计时器也很简
 3. 在要显示的地方加入`\crono`命令，比如在 footer 中。如果使用的三段式 footer 结构，可以在 footer 中显示时间，则可以这样做：
 
     ```latex
-    \begin{frame}
+    \begin1frame}
     \titlepage
     \initclock
     \end{frame}
