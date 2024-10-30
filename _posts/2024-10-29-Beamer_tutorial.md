@@ -1,5 +1,5 @@
 ---
-title: 'OneDrive'
+title: 'Beamer'
 date: 2024-10-29
 permalink: /posts/2024/blog-7
 tags:
