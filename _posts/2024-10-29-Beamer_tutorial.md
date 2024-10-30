@@ -299,39 +299,39 @@ frame部分缩小
 
 1. 使用verbatim环境
 
-```latex
-\begin{verbatim}
-    int main (void)
-    {
-        std::vector<bool> is_prime (100, true);
-    }
-\end{verbatim}
-```
+    ```latex
+    \begin{verbatim}
+        int main (void)
+        {
+            std::vector<bool> is_prime (100, true);
+        }
+    \end{verbatim}
+    ```
 
 2. 实测verbatim遇到latex代码会出现问题，需要新建一个环境
 
-```latex
-\newenvironment{fragileframe}%
-  {\begin{frame}[fragile,environment=fragileframe]}%
-  {\end{frame}}
+    ```latex
+    \newenvironment{fragileframe}%
+    {\begin{frame}[fragile,environment=fragileframe]}%
+    {\end{frame}}
 
-\begin{fragileframe}
-  \begin{verbatim}
-    \end{frame}
-  \end{verbatim}
-\end{fragileframe}
-```
+    \begin{fragileframe}
+    \begin{verbatim}
+        \end{frame}
+    \end{verbatim}
+    \end{fragileframe}
+    ```
 
 3. 使用listings宏包
 
-```latex
-\usepackage{listings}
+    ```latex
+    \usepackage{listings}
 
-\begin{lstlisting}[language=R]
-    a <- c(1, 2)
-    b <- a + 1
-\end{lstlisting}
-```
+    \begin{lstlisting}[language=R]
+        a <- c(1, 2)
+        b <- a + 1
+    \end{lstlisting}
+    ```
 
 ### 行内代码
 
