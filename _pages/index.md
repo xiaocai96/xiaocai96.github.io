@@ -18,7 +18,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in System Engineering, City University of Hong Kong, 2026 (expected)
+* Ph.D. in Systems Engineering, City University of Hong Kong, 2026 (expected)
 * M.S. in Mechanical Engineering, Xi'an Jiaotong University, 2022
 * B.S. in Mechanical Engineering, Xi'an Jiaotong University, 2019
 
