@@ -6,7 +6,7 @@ excerpt: #''
 date: 2024-04-01
 venue: 'Reliability Engineering & System Safety'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://www.sciencedirect.com/science/article/pii/S0951832024000012'
+paperurl: 'https://doi.org/10.1016/j.ress.2024.109926'
 citation: '<b>Cai, X.</b>, Li, N., & Xie, M. (2024). RUL prediction for two-phase degrading systems considering physical damage observations. <i>Reliability Engineering & System Safety</i>, 244, 109926.'
 
 ---

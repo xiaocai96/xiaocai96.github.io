@@ -6,7 +6,7 @@ excerpt: #''
 date: 2020-11-19
 venue: 'IEEE Transactions on Industrial Electronics'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://ieeexplore.ieee.org/abstract/document/9264697'
+paperurl: 'https://doi.org/10.1109/TIE.2020.3038069'
 citation: 'Li, N., Lei, Y., Gebraeel, N., Wang, Z., <b>Cai, X.</b>, Xu, P., & Wang, B. (2020). Multi-sensor data-driven remaining useful life prediction of semi-observable systems. <i>IEEE Transactions on Industrial Electronics</i>, 68(11), 11482-11491.'
 img: 500x300.png
 ---

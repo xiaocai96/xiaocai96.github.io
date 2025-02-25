@@ -6,7 +6,7 @@ excerpt: #''"Short description of portfolio item number 2 <br/><img src='/images
 date: 2021-04-01
 venue: 'Reliability Engineering & System Safety'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://www.sciencedirect.com/science/article/pii/S0951832020307493'
+paperurl: 'https://doi.org/10.1016/j.ress.2020.107249'
 citation: 'Li, N., Gebraeel, N., Lei, Y., Fang, X., <b>Cai, X.</b>, & Yan, T. (2021). Remaining useful life prediction based on a multi-sensor data fusion model. <i>Reliability Engineering & System Safety</i>, 208, 107249.'
 
 ---

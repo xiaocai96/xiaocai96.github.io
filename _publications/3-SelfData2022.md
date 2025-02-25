@@ -6,7 +6,7 @@ excerpt: #''
 date: 2022-02-15
 venue: 'Mechanical Systems and Signal Processing'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://www.sciencedirect.com/science/article/pii/S0888327021006762'
+paperurl: 'https://doi.org/10.1016/j.ymssp.2021.108315'
 citation: 'Li, N., Xu, P., Lei, Y., <b>Cai, X.</b>, & Kong, D. (2022). A self-data-driven method for remaining useful life prediction of wind turbines considering continuously varying speeds. <i>Mechanical Systems and Signal Processing</i>, 165, 108315.'
 
 ---
