@@ -1,5 +1,5 @@
 ---
-title: "Multi-sensor data-driven remaining useful life prediction of semi-observable s systems"
+title: "Multi-sensor data-driven remaining useful life prediction of semi-observable systems"
 collection: publications
 # permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: #''
