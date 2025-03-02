@@ -1,9 +1,9 @@
 ---
-title: "Knowledge embedded spatial-temporal graph convolutional networks for remaining useful life prediction"
+title: "A Self-Data-Driven Approach for Online Remaining Useful Life Prediction of Machinery Using a Recursive Update Strategy"
 collection: publications
 # permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: #''
-date: 2025-02-26
+date: 2025-02-22
 venue: 'Mechanical Systems & Signal Processing'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://doi.org/10.1016/j.mssp.2025.112541'
