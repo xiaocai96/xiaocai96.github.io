@@ -6,8 +6,8 @@ excerpt: #''
 date: 2025-02-22
 venue: 'Mechanical Systems and Signal Processing'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://doi.org/10.1016/j.mssp.2025.112541'
-citation: 'Xu, P., Lei, Y., Wang, Z., Li, N., <b>Cai, X.</b>, & Feng, K. (2025). A self-data-driven approach for online remaining useful life prediction of machinery using a recursive update strategy. <i>Mechanical Systems and Signal Processing</i>, doi: https://doi.org/10.1016/j.mssp.2025.112541.'
+paperurl: 'https://doi.org/10.1016/j.ymssp.2025.112541'
+citation: 'Xu, P., Lei, Y., Wang, Z., Li, N., <b>Cai, X.</b>, & Feng, K. (2025). A self-data-driven approach for online remaining useful life prediction of machinery using a recursive update strategy. <i>Mechanical Systems and Signal Processing</i>, doi: https://doi.org/10.1016/j.ymssp.2025.112541.'
 
 ---
 <img src='/images/Pub/Pub-6.png' alt="">
