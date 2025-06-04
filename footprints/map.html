@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Footprints</title>
+    <link rel="stylesheet" href="leaflet_dist/screen.css" />
+    <link rel="stylesheet" href="leaflet_dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="leaflet_dist/MarkerCluster.Default.css" />
+    <script src="leaflet_dist/leaflet.js"></script>
+    <script src="leaflet_dist/leaflet.markercluster-src.js"></script>
+    <script src="travel-locations.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="map" style="height: 100vh; width: 100%;"></div>
+    <script type="text/javascript">
+        var tiles = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+            maxZoom: 18,
+            attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+        });
+        
+        var latlng = L.latLng(30, 10);
+        var map = L.map('map', {center: latlng, zoom: 2, layers: [tiles]});
+        
+        var markers = L.markerClusterGroup({
+            showCoverageOnHover: false,
+            maxClusterRadius: 80
+        });
+        
+        for (var i = 0; i < travelPoints.length; i++) {
+            var point = travelPoints[i];
+            var marker = L.marker(new L.LatLng(point.lat, point.lng), { title: point.name });
+            var popupContent = `
+                <div style="width: 300px;">
+                    <h3>${point.name}</h3>
+                    <p>${point.description}</p>
+                    ${point.photo ? `<img src="${point.photo}" style="width: 100%; margin-top: 10px;" alt="${point.name}">` : ``}
+                </div>
+            `;
+            marker.bindPopup(popupContent);
+            markers.addLayer(marker);
+        }
+        
+        map.addLayer(markers);
+        map.zoomIn();
+    </script>
+</body>
+</html>

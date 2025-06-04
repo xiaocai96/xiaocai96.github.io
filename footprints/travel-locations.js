@@ -1,0 +1,15 @@
+var travelPoints = [
+    {name: '江苏 / Jiangsu', lat: 32.2083, lng: 120.1418, description: '1996年，于江苏出生<br> Born in Jiangsu in 1996'},
+    {name: '西安 / Xi\'an', lat: 34.2468, lng: 108.9790, photo: '/images/Footprint/xjtu-1.jpg', description: '2019年，于西安交通大学兴庆校区，获学士学位<br> Got Bachelor degree from XJTU in 2019'},
+    {name: '西安 / Xi\'an', lat: 34.2562, lng: 108.6586, photo: '/images/Footprint/xjtu-2.jpg', description: '2022年，于西安交通大学西部科技创新港，获硕士学位<br> Got Master degree from XJTU in 2022'},
+    {name: '香港 / Hong Kong', lat: 22.4697, lng: 114.2364, photo: '/images/Footprint/chuanwan.jpg', description: '2023年6月10日，船湾水库，入坑钓鱼<br> Start my journey of fishing at Chuanwan Reservoir'},
+    {name: '香港 / Hong Kong', lat: 22.4638, lng: 114.2740, photo: '/images/Footprint/squid.jpg', description: '2023年7月1日，北水解锁鱿鱼<br> Unlock squid'},
+    {name: '香港 / Hong Kong', lat: 22.2785, lng: 114.2970, photo: '/images/Footprint/canoe.jpg', description: '2023年7月13日，布袋澳独木舟<br> Canoe fish in Po Toi O'},
+    {name: '香港 / Hong Kong', lat: 22.4590, lng: 114.2449, photo: '/images/Footprint/datou.jpg', description: '2023年10月14日，船湾水坝鲢鳙<br> Got a bighead carp'},
+    {name: '香港 / Hong Kong', lat: 22.4371, lng: 114.2403, photo: '/images/Footprint/wuxisha-1.jpg', description: '2023年11月24日，乌溪沙<br> Wu Kai Sha'},
+    {name: '香港 / Hong Kong', lat: 22.2576, lng: 114.2928, photo: '/images/Footprint/donglong-1.jpg', description: '2023年12月2日，东龙洲<br> Tung Lung Chau'},
+    {name: '香港 / Hong Kong', lat: 22.2547, lng: 114.2888, photo: '/images/Footprint/donglong-2.jpg', description: '2024年5月5日，东龙洲 芝麻斑<br> Tung Lung Chau Spotted grouper'},
+    {name: '香港 / Hong Kong', lat: 22.2770, lng: 113.8610, photo: '/images/Footprint/gangzhuao.jpg', description: '2024年5月15日，港珠澳大桥钓鱼<br> Fish under the Hong Kong-Zhuhai-Macau Bridge'},
+    {name: '香港 / Hong Kong', lat: 22.2388, lng: 114.2866, photo: '/images/Footprint/donglong-3.jpg', description: '2025年2月15日，东龙洲南堂尾<br> Tung Lung Chau Tathong Point'},
+    // {name: '剑桥', lat: 51.5074, lng: -0.1278, photo: 'images/cambridge.jpg', description: '2025年7月1日，剑桥大学访问半年<br> Visit Cambridge University'},
+];
