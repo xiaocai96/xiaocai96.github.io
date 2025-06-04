@@ -58,7 +58,7 @@ A tutorial for conda for Beamer
 ### 图片
 ```latex
 % 设置默认图片路径
-\graphicspath{{images/}}
+\graphicspath{'{images/}'} % 去除引号
 
 \begin{figure}[h]
     \centering
