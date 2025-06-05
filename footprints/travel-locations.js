@@ -15,5 +15,4 @@ var travelPoints = [
     {name: '香港 / Hong Kong', lat: 22.2547, lng: 114.2888, photo: '/images/Footprint/donglong-20240505.jpg', description: '2024年5月5日，东龙洲解锁芝麻斑<br> Unlock Spotted grouper in Tung Lung Chau'},
     {name: '香港 / Hong Kong', lat: 22.2547, lng: 114.2888, photo: '/images/Footprint/donglong-20241130.jpg', description: '2024年11月30日，东龙洲鱿鱼最大个体<br> Got the biggest Squid in Tung Lung Chau'},
     {name: '香港 / Hong Kong', lat: 22.2388, lng: 114.2866, photo: '/images/Footprint/donglong-20250215.jpg', description: '2025年2月15日，东龙洲南堂尾<br> Tung Lung Chau Tathong Point'},
-    // {name: '剑桥', lat: 51.5074, lng: -0.1278, photo: 'images/cambridge.jpg', description: '2025年7月1日，剑桥大学访问半年<br> Visit Cambridge University'},
 ];
