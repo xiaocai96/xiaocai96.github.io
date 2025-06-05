@@ -6,6 +6,7 @@ var travelPoints = [
     {name: '香港 / Hong Kong', lat: 22.4590, lng: 114.2449, photo: '/images/Footprint/datou-20231014.jpg', description: '2023年10月14日，船湾水坝鲢鳙<br> Got a bighead carp'},
     {name: '香港 / Hong Kong', lat: 22.2770, lng: 113.8610, photo: '/images/Footprint/gangzhuao-20240515.jpg', description: '2024年5月15日，港珠澳大桥钓鱼<br> Fish under the Hong Kong-Zhuhai-Macau Bridge'},
     {name: '香港 / Hong Kong', lat: 22.4712, lng: 113.9726, photo: '/images/Footprint/liufushan-20231226-1.jpg', description: '2023年12月26日，流浮山<br> LAU FAU Shan'},
+    {name: '香港 / Hong Kong', lat: 22.4712, lng: 113.9726, photo: '/images/Footprint/liufushan-20231226-2.jpg', description: '2023年12月26日，流浮山<br> LAU FAU Shan'},
     {name: '香港 / Hong Kong', lat: 22.4638, lng: 114.2740, photo: '/images/Footprint/squid-20230701.jpg', description: '2023年7月1日，北水解锁鱿鱼<br> Unlock squid'},
     {name: '香港 / Hong Kong', lat: 22.2785, lng: 114.2970, photo: '/images/Footprint/canoe-20230713.jpg', description: '2023年7月13日，布袋澳独木舟<br> Canoe fish in Po Toi O'},
     {name: '香港 / Hong Kong', lat: 22.4371, lng: 114.2403, photo: '/images/Footprint/maanshan-20231124.jpg', description: '2023年11月24日，马鞍山<br> Ma On Shan'},
