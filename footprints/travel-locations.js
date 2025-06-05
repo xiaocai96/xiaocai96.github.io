@@ -9,10 +9,11 @@ var travelPoints = [
     {name: '香港 / Hong Kong', lat: 22.4638, lng: 114.2740, photo: '/images/Footprint/squid-20230701.jpg', description: '2023年7月1日，北水解锁鱿鱼<br> Unlock squid'},
     {name: '香港 / Hong Kong', lat: 22.2785, lng: 114.2970, photo: '/images/Footprint/canoe-20230713.jpg', description: '2023年7月13日，布袋澳独木舟<br> Canoe fish in Po Toi O'},
     {name: '香港 / Hong Kong', lat: 22.4371, lng: 114.2403, photo: '/images/Footprint/maanshan-20231124.jpg', description: '2023年11月24日，马鞍山<br> Ma On Shan'},
-    {name: '香港 / Hong Kong', lat: 22.4371, lng: 114.2403, photo: '/images/Footprint/wuxisha-20240721.jpg', description: '2024年7月21日，乌溪沙解锁八爪鱼<br> Unlock octopus in Wu Kai Sha'},
-    {name: '香港 / Hong Kong', lat: 22.4371, lng: 114.2403, photo: '/images/Footprint/wuxisha-20241123.jpg', description: '2024年11月23日，乌溪沙<br> Wu Kai Sha'},
+    {name: '香港 / Hong Kong', lat: 22.4295, lng: 114.2338, photo: '/images/Footprint/wuxisha-20240721.jpg', description: '2024年7月21日，乌溪沙解锁八爪鱼<br> Unlock octopus in Wu Kai Sha'},
+    {name: '香港 / Hong Kong', lat: 22.4295, lng: 114.2338, photo: '/images/Footprint/wuxisha-20241123.jpg', description: '2024年11月23日，乌溪沙<br> Wu Kai Sha'},
     {name: '香港 / Hong Kong', lat: 22.2576, lng: 114.2928, photo: '/images/Footprint/donglong-20231202.jpg', description: '2023年12月2日，首战东龙洲<br> First time to Tung Lung Chau'},
     {name: '香港 / Hong Kong', lat: 22.2547, lng: 114.2888, photo: '/images/Footprint/donglong-20240505.jpg', description: '2024年5月5日，东龙洲解锁芝麻斑<br> Unlock Spotted grouper in Tung Lung Chau'},
     {name: '香港 / Hong Kong', lat: 22.2547, lng: 114.2888, photo: '/images/Footprint/donglong-20241130.jpg', description: '2024年11月30日，东龙洲鱿鱼最大个体<br> Got the biggest Squid in Tung Lung Chau'},
     {name: '香港 / Hong Kong', lat: 22.2388, lng: 114.2866, photo: '/images/Footprint/donglong-20250215.jpg', description: '2025年2月15日，东龙洲南堂尾<br> Tung Lung Chau Tathong Point'},
+    // {name: '剑桥', lat: 51.5074, lng: -0.1278, photo: 'images/cambridge.jpg', description: '2025年7月1日，剑桥大学访问半年<br> Visit Cambridge University'},
 ];
